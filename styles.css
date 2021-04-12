@@ -1,0 +1,324 @@
+.bg-blue{
+    background-color: #0184d4;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-none{
+    background: none;
+}
+
+.bg-size-cover{
+    background-size: cover;
+}
+
+.w-200px{
+    width: 200px;
+}
+
+.f-30{
+    font-size: 30px;
+}
+.f-28{
+    font-size: 28px;
+}
+
+.f-45{
+    font-size: 45px;
+}
+.w-100{
+    width: 100%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-200px{
+    width: 200px;
+}
+.h-auto{
+    height: auto;
+}
+
+.h-600px{
+    height: 600px;
+}
+
+.h-60px{
+    height: 60px;
+}
+
+
+.h-70{
+    height: 70%;
+}
+.d-flex{
+    display: flex;
+}
+.d-none{
+    display: none;
+}
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+.align-items-center{
+align-items: center;
+}
+
+.position-fixed{
+    position: fixed;
+}
+
+
+.position-relative{
+    position: relative;
+}
+.t-0{
+    top: 0;
+}
+
+.t-18{
+    top: 18%;
+}
+
+
+.l-0{
+    left: 0;
+}
+
+.l-25{
+left: 25%;
+}
+
+.ml-5px{
+    margin-left: 5px;
+}
+
+.ml-20px{
+    margin-left: 20px;
+}
+
+.mr-20px{
+    margin-right: 20px;
+}
+
+.mt-30px{
+    margin-top: 30px;
+}
+.mr-10px{
+    margin-right: 10px;
+}
+
+.opacity-0{
+    opacity: 0;
+}
+
+
+.border-radius-5{
+    border-radius: 5px;
+}
+
+.text-decoration-none{
+    text-decoration: none;
+}
+
+
+.text-black{
+    color: black;
+}
+
+.text-white{
+    color: white;
+}
+
+.font-weight{
+    font-weight: bold;
+}
+
+
+.text-shadow-blue-light{
+
+    text-shadow:  0px 0px 5px 70px #0184D4 !important;
+}
+
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.container .hamburguer{
+    display: none;
+}
+
+.container .sub-menu{
+    position: fixed;
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    background: white;
+    top: 18%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.container .sub-menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+  transition: all 1s;
+
+}
+
+
+.container .sub-menu a:hover{
+    color: #0184D4;
+    text-shadow: 2px 10px 10px #0184D4;
+
+}
+
+
+.container nav .icono{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    width: 200px;
+    height: auto;
+
+}
+
+.container nav .icono a{
+    font-size: 28px !important;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px 70px #0184D4 !important;
+    text-decoration: none;
+    color: white;
+}
+
+
+.container nav .icono a:hover{
+  box-shadow: 0px 0px 10px 5px white unset;
+}
+.container nav .menu{
+    width: auto;
+    height: auto;
+}
+
+.container nav .menu a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.container nav .menu a:hover{
+
+    text-shadow: 2px 2px 2px white;
+
+}
+
+.container .section1{
+  
+    background-image: url('https://www.glajumedia.com/wp-content/themes/glajumedia/img/glajumedia-fondo-principal.jpg');
+}
+
+
+
+.container .section1 .texto p{
+    animation: mover .5s .5s infinite linear;
+
+}
+
+@keyframes mover {
+
+    0%{transform: translateY(0px); }
+    50%{transform: translateY(50px);}
+    100%{transform: translateY(0px);}
+
+}
+
+
+
+.container .section2 .card{
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    padding: 10px;
+    background: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: all 400ms;
+    cursor: pointer;
+
+}
+
+.container .section2 .card:hover{
+   transform: scale(1.2);
+
+}
+
+
+.container .section2 .card h5{
+    font-size: 30px;
+    color: #0184D4;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+
+
+
+.container .section-3 .history p {
+   margin-top: 5px;
+   font-size: 25px;
+   color: black;
+   font-family: sans-serif;
+}
+
+
+
+
+
+
